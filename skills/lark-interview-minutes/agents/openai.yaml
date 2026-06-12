@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞书专家访谈纪要"
+  short_description: "完整整理逐字稿、三轮查漏并生成带可编辑图示的飞书云纪要"
+  default_prompt: "使用 $lark-interview-minutes 根据逐字稿和访谈框架整理完整纪要，三轮回读补漏，加入必要图示并输出飞书云文档。"
+
+policy:
+  allow_implicit_invocation: true
